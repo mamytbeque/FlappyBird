@@ -3,7 +3,7 @@ import javafx.scene.canvas.GraphicsContext;
 
 class Bird implements GameObject {
     private int WIDTH = 115;
-    private int HEIGHT = 70;
+    private int HEIGHT = 75;
     private Asset assets[] = {
         new Asset("/images/bird1.png", WIDTH, HEIGHT),
         new Asset("/images/bird2.png", WIDTH, HEIGHT),
